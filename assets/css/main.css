@@ -249,7 +249,7 @@ a#scrollUp i{
 
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
 	background:none;
-	color:#fdb45e;
+	color:#7CFC00;
 }
 
 .search_box input {
@@ -573,11 +573,11 @@ ul.sub-menu {
 }
 
 .carousel-indicators li {
-  background: #C4C4BE;
+  background: #808080;
 }
 
 .carousel-indicators li.active {
-	  background: #FE980F;
+	  background: #7CFC00;
 }
 
 .item {
@@ -646,7 +646,7 @@ ul.sub-menu {
 }
 
 .control-carousel:hover{
-  color: #FE980F ;
+  color: #7CFC00 ;
 }
 
 .right {
@@ -1196,7 +1196,7 @@ h2.title {
 
 #similar-product .carousel-inner .item img {
   display: inline-block;
-  margin-left: 15px;
+  
 }
 
 .item-control {

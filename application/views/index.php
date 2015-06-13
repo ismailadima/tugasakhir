@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+
+	<style type="text/css">
+		.coba img {
+			height: 300px;
+			width: 900px;
+			position: relative;;
+		}
+
+		.gambar-user img {
+			height: 250px;
+			width: 300px;
+		}
+		</style>
+</head>
 <body>
 	<header id="header"><!--header-->
 		<div class="header_top"><!--header_top-->
@@ -22,7 +37,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="#"><img src="<?php echo base_url('assets/images/home/logo.png');?>" alt="" /></a>
+							<a href="<?php echo base_url();?>"><img src="<?php echo base_url('assets/images/home/logo.png');?>" alt="" /></a>
 						</div>
 					</div>
 				</div>
@@ -66,42 +81,27 @@
 							<li data-target="#slider-carousel" data-slide-to="2"></li>
 						</ol>
 						
-						<div class="carousel-inner">
+						<div class="carousel-inner coba">
 							<div class="item active">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Free E-Commerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="<?php echo base_url('assets/images/home/girl1.jpg');?>" class="girl img-responsive" alt="" />
-									<img src="<?php echo base_Url('assets/images/home/pricing.png');?>"  class="pricing" alt="" />
+								<div class="col-sm-15">
+									<img src="<?php echo base_url('assets/images/home/slider1.jpg');?>" class="girl img-responsive" alt="" />
 								</div>
 							</div>
 							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>100% Responsive Design</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-6">
-									<img src="<?php echo base_url('assets/images/home/girl2.jpg');?>" class="girl img-responsive" alt="" />
-									<img src="<?php echo base_url('assets/images/home/pricing.png');?>"  class="pricing" alt="" />
+								<div class="col-sm-15">
+									<img src="<?php echo base_url('assets/images/home/slider2.jpg');?>" class="girl img-responsive" alt="" />
 								</div>
 							</div>
 							
 							<div class="item">
-								<div class="col-sm-6">
-									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Free Ecommerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button>
+								<div class="col-sm-15">
+									<img src="<?php echo base_url('assets/images/home/slider3.jpg');?>" class="girl img-responsive" alt="" />
 								</div>
-								<div class="col-sm-6">
-									<img src="<?php echo base_url('assets/images/home/girl3.jpg');?>" class="girl img-responsive" alt="" />
-									<img src="<?php echo base_url('assets/images/home/pricing.png');?>" class="pricing" alt="" />
+							</div>
+							<div class="item">
+								<div class="col-sm-15">
+									<img src="<?php echo base_url('assets/images/home/slider4.jpg');?>" class="girl img-responsive" alt="" />
+
 								</div>
 							</div>
 							
